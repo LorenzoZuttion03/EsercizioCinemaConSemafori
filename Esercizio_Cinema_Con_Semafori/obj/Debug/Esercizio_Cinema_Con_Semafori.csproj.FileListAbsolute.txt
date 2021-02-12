@@ -1,0 +1,15 @@
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\bin\Debug\Esercizio_Cinema_Con_Semafori.exe.config
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\bin\Debug\Esercizio_Cinema_Con_Semafori.exe
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\bin\Debug\Esercizio_Cinema_Con_Semafori.pdb
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.csprojAssemblyReference.cache
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\MainWindow.g.cs
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\App.g.cs
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori_MarkupCompile.cache
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori_MarkupCompile.lref
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\MainWindow.baml
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.g.resources
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.Properties.Resources.resources
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.csproj.GenerateResource.cache
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.exe
+C:\Users\Lorenzo\source\repos\Esercizio_Cinema_Con_Semafori\Esercizio_Cinema_Con_Semafori\obj\Debug\Esercizio_Cinema_Con_Semafori.pdb

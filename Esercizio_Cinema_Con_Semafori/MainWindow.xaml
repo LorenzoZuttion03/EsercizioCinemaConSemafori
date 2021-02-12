@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image x:Name="imgSalaCinema" HorizontalAlignment="Left" Height="323" Margin="58,63,0,0" VerticalAlignment="Top" Width="538" Source="Sala_Cinema.jpg"/>
+        <TextBox x:Name="txtCassa1" HorizontalAlignment="Left" Height="45" Margin="624,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.129"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="Cassa1" HorizontalAlignment="Left" Height="50" Margin="626,124,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click"/>
+        <TextBox x:Name="txtCassa2" HorizontalAlignment="Left" Height="48" Margin="626,208,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Button Content="Cassa2" HorizontalAlignment="Left" Height="53" Margin="626,286,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click_1"/>
+
     </Grid>
 </Window>

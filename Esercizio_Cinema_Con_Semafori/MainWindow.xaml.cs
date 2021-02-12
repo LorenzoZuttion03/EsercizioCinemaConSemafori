@@ -35,11 +35,11 @@ namespace Esercizio_Cinema_Con_Semafori
             }
             
 
-            //_pool = new Semaphore(0, 1);
+            
 
             
 
-            //_pool.Release(1);
+            
         }
         void Cassa1()
         {
@@ -64,10 +64,10 @@ namespace Esercizio_Cinema_Con_Semafori
                 }
 
             }
-                //se x=1 significa semaforo verde quindi posso eseguire le istruzioni, se x=0 semaforo rosso
+                
 
             
-                  //_pool.WaitOne();
+                  
 
                   
                 

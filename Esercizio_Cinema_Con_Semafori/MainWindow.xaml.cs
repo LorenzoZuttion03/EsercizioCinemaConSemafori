@@ -21,7 +21,7 @@ namespace Esercizio_Cinema_Con_Semafori
     /// </summary>
     public partial class MainWindow : Window
     {
-        static int buffer = 5;
+        
         private static object x = new object();
         private bool[] posti = new bool[10];
         
@@ -54,6 +54,7 @@ namespace Esercizio_Cinema_Con_Semafori
                 if(posti[tmp-1] == false)
                 {
                     posti[tmp - 1] = true;
+                    MessageBox.Show("Posto Libero");
                 }
                 else
                 {
@@ -88,6 +89,7 @@ namespace Esercizio_Cinema_Con_Semafori
                 if (posti[tmp - 1] == false)
                 {
                     posti[tmp - 1] = true;
+                    MessageBox.Show("Posto Libero");
                 }
                 else
                 {

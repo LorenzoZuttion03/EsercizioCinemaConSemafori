@@ -33,13 +33,7 @@ namespace Esercizio_Cinema_Con_Semafori
             {
                 posti[i] = false; // Posti tutti liberi
             }
-            
-
-            
-
-            
-
-            
+ 
         }
         void Cassa1()
         {
@@ -65,15 +59,7 @@ namespace Esercizio_Cinema_Con_Semafori
                 }
 
             }
-                
-
-            
-                  
-
-                  
-                
-
-            
+ 
         }
         void Cassa2()
         {

@@ -35,6 +35,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <Ellipse x:Name="Posto1" Fill="#FF03FF0E" HorizontalAlignment="Left" Height="38" Margin="92,309,0,0" Stroke="Black" VerticalAlignment="Top" Width="29"/>
 
     </Grid>
 </Window>

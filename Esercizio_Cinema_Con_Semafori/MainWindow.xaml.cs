@@ -66,6 +66,17 @@ namespace Esercizio_Cinema_Con_Semafori
                 {
                     posti[tmp - 1] = true;
                     MessageBox.Show("Posto Libero");
+                    switch (tmp)
+                    {
+                        case 1:
+                            this.Dispatcher.BeginInvoke(new Action(() =>
+                            {
+                                Posto1.Fill = System.Windows.Media.Brushes.Red;
+                                
+                            }));
+                            break;
+                           
+                    }
                 }
                 else
                 {

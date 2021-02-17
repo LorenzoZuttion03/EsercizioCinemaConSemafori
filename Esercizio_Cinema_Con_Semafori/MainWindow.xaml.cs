@@ -35,7 +35,7 @@ namespace Esercizio_Cinema_Con_Semafori
             }
  
         }
-        void Cassa1()
+        void Cassa1()//Questo metodo viene associato al thread che viene generato nella parte logica del bottone della Cassa1
         {
 
             lock (x)
@@ -56,7 +56,7 @@ namespace Esercizio_Cinema_Con_Semafori
             }
  
         }
-        void Cassa2()
+        void Cassa2()//Questo metodo viene associato al thread che viene generato nella parte logica del bottone della Cassa1
         {
 
 
@@ -80,14 +80,14 @@ namespace Esercizio_Cinema_Con_Semafori
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e) //Questa è la parte del programma associata al bottone della Cassa1
         {
             tmp = int.Parse(txtCassa1.Text);
             Thread t1 = new Thread(new ThreadStart(Cassa1));
             t1.Start();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)//Questa è la parte del programma associata al bottone della Cassa2
         {
             tmp = int.Parse(txtCassa2.Text);
             Thread t2 = new Thread(new ThreadStart(Cassa2));

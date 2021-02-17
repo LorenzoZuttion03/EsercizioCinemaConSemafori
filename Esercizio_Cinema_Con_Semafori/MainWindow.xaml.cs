@@ -24,7 +24,7 @@ namespace Esercizio_Cinema_Con_Semafori
         
         private static object x = new object();
         private bool[] posti = new bool[10];
-        
+        private int tmp = 0;
        
         //private static Semaphore _pool;
         public MainWindow()
@@ -37,11 +37,6 @@ namespace Esercizio_Cinema_Con_Semafori
         }
         void Cassa1()
         {
-            int tmp = 1;
-            this.Dispatcher.BeginInvoke(new Action(() =>
-            {
-               tmp = int.Parse(txtCassa1.Text);
-            }));
 
             lock (x)
             {
@@ -63,12 +58,7 @@ namespace Esercizio_Cinema_Con_Semafori
         }
         void Cassa2()
         {
-            
-            int tmp = 1;
-            this.Dispatcher.BeginInvoke(new Action(() =>
-            {
-                tmp = int.Parse(txtCassa2.Text);
-            }));
+
 
             lock (x)
             {
@@ -92,12 +82,14 @@ namespace Esercizio_Cinema_Con_Semafori
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            tmp = int.Parse(txtCassa1.Text);
             Thread t1 = new Thread(new ThreadStart(Cassa1));
             t1.Start();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            tmp = int.Parse(txtCassa2.Text);
             Thread t2 = new Thread(new ThreadStart(Cassa2));
             t2.Start();
         }
